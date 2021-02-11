@@ -2,4 +2,4 @@
 
 <p>Estou aqui tentando aprender a usar o Git</p>
 
-<img>win95.jpeg</img>
+<img src=win95.jpeg  width=800px alt="Linux Rules">
