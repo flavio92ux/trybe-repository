@@ -1,7 +1,7 @@
 #title {
     text-align: center;
     text-shadow: 0.1em 0.1em #333;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #zoom {
@@ -20,8 +20,6 @@
 }
 
 #zoom:hover img {
-    -moz-transform: scale(1.4);
-	-webkit-transform: scale(1.4);
 	transform: scale(1.4);
 }
 
@@ -32,14 +30,7 @@
     display: block;
     border-radius: 100%;
     box-shadow: 0.1em 0.1em rgb(51, 51, 51, 0.4);
-  }
-
-#center {
-    max-width: 600px;
-    height: 100%;
-    margin: 0 auto;
-    display: block;
-  }
+}
 
 body {
     background: linear-gradient(
@@ -47,12 +38,39 @@ body {
     color: white;
 }
 
+#description {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0.3em 0.3em rgb(51, 51, 51, 0.4);
+}
+
+#description p{
+    color: black;
+    margin: 10px;
+    line-height: 25px
+}
+
+#description:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+#center {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
 #cards {
     max-width: 600px;
     height: 100%;
     display: inline-block;
     padding-left: 60px;
-  }
+}
 
 .card {
     width: 220px;
@@ -63,43 +81,70 @@ body {
       rgba(234,249,249,0.67) 0.1%,
       rgba(239,249,251,0.63) 90.1% );
     border-radius: 8px;
-    /* margin-left: 50px; */
     box-shadow: 0.3em 0.3em rgb(51, 51, 51, 0.4);
     float: left;
-  }
+}
+
+.card:hover {
+    background-image: radial-gradient(
+      circle farthest-corner at 10% 20%,
+      rgba(234,249,249,0.67) 0.1%,
+      rgba(224, 224, 224, 0.63) 90.1% );
+}
+
+
+.card h3 {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+.card ul li {
+    color: black;
+    font-weight: 300;  
+}
+
+.card a {
+    margin-left: 60px;
+    margin-right: 20px;
+    line-height: 25px
+}
+
+.card a:visited {
+    color: black;
+}
+
 
 #section-bottom {
-    width: 600px;
-    height: 400px;
+    width: 200px;
+    height: 100px;
     margin: 0 auto;
-    margin-top: 40px;
-    display: block;
-  }
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#section-bottom a {
+    color: white;
+}
+
+#section-bottom a:visited {
+    color: white;
+}
 
 #footer {
     max-width: 600px;
     margin: 0 auto;
+    margin-top: 40px;
     text-align: center;
     font-weight: 300;
-  }
-
-
-/* p {
-    font-family: Roboto;
-    font-style: italic;
 }
 
-
-#informacoes {
-    color: rgb(46, 54, 10);
-    font-weight: bold;
+#footer a {
+    color: white;
+    text-decoration: none;
 }
 
-#skills {
-    height: 4px;
-    font-size: large;
-}
-
-#foto {
- */
+#footer a:visited {
+    color: white;
 }
