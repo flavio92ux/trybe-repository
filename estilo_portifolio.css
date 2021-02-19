@@ -1,0 +1,28 @@
+#main {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: Montserrat;
+    font-style: italic;
+}
+
+body {
+    background-color: rgb(133, 150, 134);
+}
+
+#informacoes {
+    color: rgb(46, 54, 10);
+    font-weight: bold;
+}
+
+#skills {
+    height: 4px;
+    font-size: large;
+}
+
+li {
+    font-family: Hanalei;
+}
+
+</style> -->
