@@ -34,13 +34,54 @@
     box-shadow: 0.1em 0.1em rgb(51, 51, 51, 0.4);
   }
 
+#center {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
 body {
     background: linear-gradient(
     to right, rgb(106, 48, 147), rgb(160, 68, 255));
     color: white;
 }
 
+#cards {
+    max-width: 600px;
+    height: 100%;
+    display: inline-block;
+    padding-left: 60px;
+  }
 
+.card {
+    width: 220px;
+    height: 200px;
+    margin: 10px;
+    background-image: radial-gradient(
+      circle farthest-corner at 10% 20%,
+      rgba(234,249,249,0.67) 0.1%,
+      rgba(239,249,251,0.63) 90.1% );
+    border-radius: 8px;
+    /* margin-left: 50px; */
+    box-shadow: 0.3em 0.3em rgb(51, 51, 51, 0.4);
+    float: left;
+  }
+
+#section-bottom {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: block;
+  }
+
+#footer {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 300;
+  }
 
 
 /* p {
